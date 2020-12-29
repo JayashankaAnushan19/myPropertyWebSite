@@ -1,7 +1,11 @@
 .conHead{
 	padding: 20px 0;
 	padding-left: 20px;
-	background-color: #9CBA77;
+	background-color: #808E6F;
+	background-image: url(../Img/bit.jpg);	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: #352A16;
 }
 .head{
