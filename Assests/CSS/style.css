@@ -1,0 +1,302 @@
+.conHead{
+	padding: 20px 0;
+	padding-left: 20px;
+	background-color: #9CBA77;
+	color: #352A16;
+}
+.head{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+div h6{
+	padding: 0;
+	display: block;
+	font-size: 50px;
+}
+img{
+	display: block;
+}
+body{
+	background-color: #252025;
+}
+.midWindow{
+	/*background-image: url(../Img/midbgWidow.jpg);	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+ul.nav{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: #315354;
+	position: sticky;
+	top: 0;
+}
+li.nav{
+	float: left;
+}
+li.nav a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 16px 18px;
+	text-align: center;
+}
+li.nav a:hover{
+	background-color: #53A16E;
+}
+li.nav .active{
+	background-color: #009277;
+	color: black;
+}
+div .bodyBG{
+	background-color: #909277;
+}
+/* Assignment link CSS - Start */
+.assignBit{ 
+	position: fixed;
+	height: 60px;
+	width: 100px;
+	right: 0;
+	bottom: 50px;
+	background-color: none;
+	color: white;
+}
+/* Assignment link CSS - End */
+.homeImgSlide img{
+	margin: 0 0 0 0;
+	width: 100%;
+	min-height: 80%;
+	padding: 0;
+	opacity: 80%;
+}
+div.relative {
+	position: relative;
+	width: 50%;
+	height: 200px;
+} 
+div.absolute {
+	position: absolute;
+	top: 120px;
+	left: 60%;
+	width: 50%;
+	height: 50px;
+	font-size: 20px;
+	border-radius: 2%;
+}
+.midBg{
+	background-color: white;
+}
+.inline{
+	display: flex;
+}
+div.inline{
+	padding: auto;
+	display: inline-flex;
+}
+.center {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+.midRoundImage{
+	border-radius: 50%;
+	border: 15px solid #BDB2B4;
+}
+.midInfoLine{
+	min-width: 150px;
+}
+.label {
+	color: white;
+	padding: 10px;
+	font-style: italic; 
+	text-align: center;
+	font-weight: bold;
+}
+div.label{
+	width: 70%;
+	font-size: 25px;
+}
+
+.other {background-color: #e7e7e7; color: black;} 
+
+.footer{
+	padding: 0;
+	margin: 0;
+	background-color: #58595C;
+	color: white;
+}
+ul{	
+	margin: 0;
+	padding: 0
+}
+.footer ul{
+	margin-left: 80%;
+	right: 0;
+	bottom: 0;
+	list-style: none;
+	padding: 10px 0 10px 50px;
+	left: 0
+}
+.footer ul li.inline{
+	padding: auto;
+	display: inline-flex;
+	padding: 10px 20px;
+}
+.footer ul li.inline a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+.footCopy{
+	padding: 50px 0 10px 0;
+	background-color: white;
+	color: black;
+	width: 100%;
+	text-align: center;
+}
+iframe{
+	margin: 50px 0;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.contactDetails div{
+	padding-left: 50px;
+}
+.contactDetails h6{
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+.contactDetails {
+	padding-left: 50px;
+	font-size: 20px;
+	font-weight: 200px;
+}
+.about{
+	margin-left: 50px;
+	margin-right: 50px;	
+}
+.aboutHead{
+	background-color: #A49C57;
+	padding: 20px 0 20px 20px;
+	font-size: 20px;
+	margin: 0 0 10px 0;
+	font-family: fantasy;
+}
+.aboutImg{
+	border-radius: 50%;
+	border: 2px solid black;
+}
+.details{
+	padding-bottom: 20px; 
+}
+.blockInline{
+	display: block;
+}
+div.blockInline{
+	display: inline-block;
+}
+.marginR40{
+	margin-right: 40px;
+}
+.managerPost{
+	text-decoration: underline;
+	font-weight:bolder;
+	font-style: italic;
+}
+.sellImage{
+	width: 200px;
+	border-radius: 30px;
+}
+.sellBlock{
+	max-height: 450px;
+	width: 300px;
+	background-color: #CFCDCB;
+	margin: 50px;
+	border: 1px solid #a7a4a1;
+	border-radius: 20px;	
+}
+.sellBlock table{
+	padding: 0 10px;
+}
+.sellBlock table td:first-child { 
+	padding-left: 5px;
+	font-weight: bolder;
+}  
+.sellBlock table td:nth-child(2){ 
+	padding-left: 5px;
+	font-style: italic;
+} 
+.sellLink{
+	text-decoration: none;
+}
+.sellbtn{
+	margin: auto;
+}
+.btn{
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	margin: 10px 0;
+	padding: 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.zoom {
+	transition: transform .2s; 
+}
+.zoom:hover {
+	transform: scale(2.5);
+}
+.test{
+	border: 1px solid red;
+}
+
+
+
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+	/* some CSS here */
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+	/* some CSS here */
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px){
+	/* some CSS here */
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+	/* some CSS here */
+}
+
+/* #### iPhone 5 Portrait or Landscape #### */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+	/* some CSS here */
+}
+
+/* #### iPhone 6 and 6 plus Portrait or Landscape #### */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3){
+	/* some CSS here */
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+	/* some CSS here */
+}
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px){
+	/* some CSS here */
+}
