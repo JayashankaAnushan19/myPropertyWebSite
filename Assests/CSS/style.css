@@ -458,3 +458,41 @@ section {
 	}
 
 }
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:500px;
+	width:600px;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:500px;
+	width:600px;
+}
+.column {
+	float: left;
+	width: 45%;
+	padding: 10px;
+	background: white;
+}
+.row{
+	width:1313px;
+	height:800px;
+}
+#contact{
+	padding: 65px 150px;
+}
+#title{
+	text-align: center;
+	font-size: xxx-large;
+	font-family: sans-serif;
+}
+.banner{
+	background-image: url("../IMG/conact-us.jpg");
+	height: 250px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
